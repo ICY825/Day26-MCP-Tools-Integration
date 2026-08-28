@@ -1,0 +1,5 @@
+# Script shell phải giữ LF, nếu không sẽ lỗi "bad interpreter" trên Git Bash/WSL
+*.sh text eol=lf
+
+# Script PowerShell dùng CRLF theo quy ước Windows
+*.ps1 text eol=crlf
